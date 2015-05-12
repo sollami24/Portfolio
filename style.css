@@ -43,8 +43,8 @@ h3{
 }
 
 #aboutMe{
-  width:400px;
-  height: 153px;
+  width:610px;
+  height: 150px;
   position: absolute;
   left:55px;
   top: 130px;
@@ -59,25 +59,84 @@ h3{
   padding-right:2%;
 }
 
+#resume{
+  width:610px;
+  height: 1200px;
+  position: absolute;
+  left:55px;
+  top: 130px;
+  background-color:#081d43;
+}
+
+#resumeText{
+  font-family:Lato;
+  font-size: 12px;
+  padding-left:2%;
+  padding-bottom:2%;
+  padding-right:2%;
+}
+
+#resumeText h4{
+  text-align: center;
+}
+
+#websites{
+  width:610px;
+  height: 150px;
+  position: absolute;
+  left:55px;
+  top: 130px;
+  background-color:#081d43;
+}
+
+#websites h3{
+  font-size:18px;
+}
+#websitesText{
+  font-family:Lato;
+  font-size: 16px;
+  text-align: center;
+}
 #credit
 {
   text-align: right;
   font-style: italic;
 }
 
+#contact1{
+  width:610px;
+  height: 150px;
+  position: absolute;
+  left:55px;
+  top: 130px;
+  background-color:#081d43;
+}
+#contact1 h3{
+  font-size:18px;
+}
+
+#contact1Text{
+  font-family:Lato;
+  font-size: 12px;
+  text-align: center;
+}
 nav{
   position: absolute;
-  top:130px;
-  left:455px;
-  width:211px;
-  height:153px;
+  top:238px;
+  left:676px;
+  width:350px;
+  height:28px;
   font-family:'Contrail One', cursive;
   font-size: 16px;
   background-color: #bbc4d8;
-  padding-left: 5px;
-  padding-right: 5px;
   text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #081d43;
+  padding-top: 7px;
+  word-spacing: 25px;
 }
+
 
 
 footer{
@@ -94,7 +153,11 @@ footer{
   margin-bottom: 2%;
 }
 
-h4{
+footer h4{
   font-family: 'Contrail One', cursive;
   font-size: 18px;
+}
+
+#rightText{
+  text-align:right;
 }
